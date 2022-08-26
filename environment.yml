@@ -1,0 +1,11 @@
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - ipython
+  - jupyterlab
+  - jupytext
+  - matplotlib
+  - pandas
+  - requests
