@@ -192,8 +192,9 @@ docs/_build/
 .pybuilder/
 target/
 
-# Jupyter Notebook
+# Jupyter Notebook, use Jupytext to version notebooks
 .ipynb_checkpoints
+*.ipynb
 
 # IPython
 profile_default/
