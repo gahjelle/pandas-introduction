@@ -9,17 +9,18 @@ The tutorial cover the following topics:
 1. DataFrames as Panels of Data
 2. Create DataFrames
 3. Work With Tidy Data
-4. Transform DataFrames
+4. Manipulate DataFrames
 5. Share Results and Insights
 
 The workshop consists of 90 minutes of live code demonstrations and hands-on exercises.
 
 ## Data
 
-The demos and examples use two public datasets:
+The demos and examples use three public datasets:
 
 1. [`data/postal_codes.csv`](data/postal_codes.csv): Postal Codes in Switzerland
 2. [`data/waste_collection.json`](data/waste_collection.json): Waste collection data for Zürich, Thalwil, Basel, and St. Gallen
+3. [`data/billboard_songs.csv`](data/billboard_songs.csv) and [`data/billboard_ranks.csv`](data/billboard_ranks.csv): Top 100 songs on Billboard in 2000
 
 See [`data/`](data/) for more information, including licenses and links to the original datasets.
 
@@ -67,4 +68,12 @@ If you prefer to solve the exercises in Jupyter, you can convert the exercise fi
 
 `jupytext` will convert all exercise files to notebooks that you can open in Jupyter Lab, or any other compatible notebook environment.
 
-Exercises and solutions are licensed under an [MIT license](LICENSE).
+You can find solutions to all exercises in the [`solutions`](solutions/) folder.
+
+## Demonstrations
+
+The workshop mostly consists of live code demonstrations. You can find simple notes from the demos in the file [`pandas_introduction.py`](pandas_introduction.py). Use `jupytext` to convert the notes to a Jupyter Notebook if you prefer.
+
+---
+
+Demonstration code, exercises, and solutions are licensed under an [MIT license](LICENSE).
