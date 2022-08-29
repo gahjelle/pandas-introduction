@@ -213,7 +213,7 @@ schedule.query("title.str.startswith('Intro')")
 schedule.query("title.str.contains('scikit')")
 
 # %%
-billboard.query("artist == 'Jay-Z'").loc[:, ["track", "time"]]
+songs.query("artist == 'Jay-Z'").loc[:, ["track", "time"]]
 
 # %%
 ranks.select_dtypes(include="number")
